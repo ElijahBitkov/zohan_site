@@ -10,10 +10,15 @@ collections:
   - name: blog
     label: Blog
     folder: src/markdown-pages
+<<<<<<< HEAD
     slug: "{{date}}-{{title}}/index.md"
+=======
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
+>>>>>>> 54ca2791abceded82c31f0a562d7d36e0a9c0f7c
     create: true
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+      - { name: slug, label: Slug }
