@@ -10,7 +10,7 @@ collections:
   - name: blog
     label: Blog
     folder: src/markdown-pages
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index.mb"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
     create: true
     fields:
       - { name: path, label: Path }
