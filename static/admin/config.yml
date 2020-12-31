@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ElijahBitkov/zohan_site/
+  repo: ElijahBitkov/zohan_site
   
 media_folder: static/assets
 public_folder: assets
