@@ -1,0 +1,28 @@
+module.exports = {
+    siteMetadata: {
+        title: "Zohan666",
+    },
+    plugins: [
+        `gatsby-transformer-sharp`,
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-remark`,
+        {
+            resolve: `gatsby-plugin-styled-components`,
+        },
+        `gatsby-plugin-react-helmet`,
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `markdownPages`,
+                path: `${__dirname}/src/markdown-pages/`,
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `imagesForPosts`,
+                path: `${__dirname}/src/images/posts`,
+            },
+        },
+    ],
+};
