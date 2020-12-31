@@ -202,7 +202,7 @@ template {
         --mb: 1.6em;
         --two-cols: 2fr 1fr;
         --grid-gap: 1em;
-        --dm: max(20px, 1em);
+        --dm: max(16px, 1em);
     }
     * {
         box-sizing: border-box;
