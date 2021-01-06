@@ -9,9 +9,9 @@ public_folder: markdown-pages
 collections:
   - name: blog
     label: Blog
-    folder: "src/markdown-pages/{{year}}-{{month}}-{{day}}-{{slug}}/"
-    media_folder: "src/markdown-pages/{{year}}-{{month}}-{{day}}-{{slug}}/"
-    slug: index
+    folder: "src/markdown-pages/"
+    media_folder: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
     create: true
     fields:
       - { name: path, label: Path }
