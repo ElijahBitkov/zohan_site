@@ -19,5 +19,5 @@ collections:
       - { name: title, label: Title }
       - { name: image, widget: image, label: Image, media_folder: "/src/markdown-pages/{{year}}-{{month}}-{{day}}-{{slug}}/" }
       - { name: body, label: Body, widget: markdown }
-      - featuredImage: ./banner.jpg
+      - { name: featuredImage, widget: hidden, default: ./banner.jpg }
       
