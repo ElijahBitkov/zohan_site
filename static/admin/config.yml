@@ -17,6 +17,6 @@ collections:
       - { name: slug, label: Slug }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
-      - { name: image, widget: image, label: Image, media_folder: "/src/markdown-pages/{{year}}-{{month}}-{{day}}-{{slug}}" }
+      - { name: image, widget: image, label: Image, media_folder: "/src/markdown-pages/{{year}}-{{month}}-{{day}}-{{slug}}/" }
       - { name: body, label: Body, widget: markdown }
       
