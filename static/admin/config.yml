@@ -11,6 +11,7 @@ collections:
     label: Blog
     folder: src/markdown-pages
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
+    featuredImage: ./banner.jpg
     create: true
     fields:
       - { name: path, label: Path }
