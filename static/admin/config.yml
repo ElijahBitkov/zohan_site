@@ -21,5 +21,5 @@ collections:
       - { name: description, label: Description }
       - { name: image, widget: image, label: Image }
       - { name: body, label: Body, widget: markdown }
-      - { name: featuredImage, widget: hidden, default: ./banner.jpg }
+      - { name: featuredImage, default: ./banner.jpg }
       
