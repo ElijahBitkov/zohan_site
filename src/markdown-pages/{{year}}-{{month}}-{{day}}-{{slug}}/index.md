@@ -1,0 +1,9 @@
+---
+path: path
+slug: slug
+date: 2021-01-06T08:59:44.361Z
+title: title
+image: src/markdown-pages/2021-01-06-title/banner.jpg
+featuredImage: ./banner.jpg
+---
+1245
