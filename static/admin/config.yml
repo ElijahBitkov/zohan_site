@@ -17,7 +17,7 @@ collections:
       - { name: slug, label: Slug }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
-      - { name: image, widget: image, label: Image}
+      - { name: image, widget: image, label: Image, media_folder: "{{year}}-{{month}}-{{day}}-{{slug}}"}
       - { name: body, label: Body, widget: markdown }
-      - { name: featuredImage, widget: hidden, default: ./banner.jpg, media_folder: "{{year}}-{{month}}-{{day}}-{{slug}}" }
+      - { name: featuredImage, widget: hidden, default: ./banner.jpg }
       
