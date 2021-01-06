@@ -3,8 +3,8 @@ backend:
   repo: ElijahBitkov/zohan_site
   branch: netify
   
-media_folder: "/src/markdown-pages/{{year}}-{{month}}-{{day}}-{{slug}}/"
-public_folder: "{{year}}-{{month}}-{{day}}-{{slug}}"
+media_folder: /src/markdown-pages/
+public_folder: markdown-pages
   
 collections:
   - name: blog
