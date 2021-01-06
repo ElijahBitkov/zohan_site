@@ -36,7 +36,7 @@ const Index = () => {
    
     return (  
         <Layout sideContent = {<About/>}>
-            {articles.allMarkdownRemark.edges.slice(1, 4).map((element) => (
+            {articles.allMarkdownRemark.edges.slice(0, 4).map((element) => (
                 
                 <Article title={element.node.frontmatter.title} text={element.node.frontmatter.description.slice(0, 200)+"..."}
                 image={element.node.frontmatter.featuredImage.childImageSharp.fluid}
