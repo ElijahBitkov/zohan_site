@@ -10,7 +10,7 @@ collections:
   - name: blog
     label: Blog
     folder: "src/markdown-pages/"
-    media_folder: "image"
+    media_folder: "."
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
     create: true
     fields:
