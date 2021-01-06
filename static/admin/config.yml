@@ -3,7 +3,7 @@ backend:
   repo: ElijahBitkov/zohan_site
   branch: netify
   
-media_folder: /src/markdown-pages/
+media_folder: /static/markdown-pages/
 public_folder: markdown-pages
 
   
