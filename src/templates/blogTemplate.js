@@ -41,12 +41,11 @@ export default function Template({ data }) {
 
     let featuredImgFluid = frontmatter.featuredImage.childImageSharp.fluid
 
-    if (frontmatter.title && html && featuredImgFluid) {
-      return (
-          <Layout sideContent={ <About/>}>
+    return (
+        <Layout sideContent={ <About/>}>
             <PostStyle />
             <article className="article">
-              <Section>
+                <Section>
                 <h3 className="article__title">{frontmatter.title}</h3>
                 <Img className="article__image" fluid={featuredImgFluid}/>
                 <div
@@ -54,12 +53,10 @@ export default function Template({ data }) {
                     dangerouslySetInnerHTML={{ __html: html }}
                 />
                 
-              </Section>
-          </article>
+                </Section>
+            </article>
         </Layout>
-      )
-    }
-    return null;
+    )
 }
 
 export const pageQuery = graphql`
