@@ -11,7 +11,7 @@ collections:
     label: Blog
     folder: "src/markdown-pages/"
     media_folder: "."
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}-{{slug}}/index"
     create: true
     fields:
       - { name: path, label: Path }
