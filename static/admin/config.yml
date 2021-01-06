@@ -3,8 +3,8 @@ backend:
   repo: ElijahBitkov/zohan_site
   branch: netify
   
-media_folder: static/assets
-public_folder: assets
+media_folder: "/src/markdown-pages/{{year}}-{{month}}-{{day}}-{{slug}}/"
+public_folder: "{{year}}-{{month}}-{{day}}-{{slug}}"
   
 collections:
   - name: blog
@@ -17,7 +17,7 @@ collections:
       - { name: slug, label: Slug }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
-      - { name: image, widget: image, label: Image, media_folder: "/src/markdown-pages/{{year}}-{{month}}-{{day}}-{{slug}}/" }
+      - { name: image, widget: image, label: Image}
       - { name: body, label: Body, widget: markdown }
       - { name: featuredImage, widget: hidden, default: ./banner.jpg }
       
