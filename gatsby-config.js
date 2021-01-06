@@ -14,7 +14,7 @@ module.exports = {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `markdownPages`,
-                path: `${__dirname}/src/markdown-pages/`,
+                path: `${__dirname}/static/markdown-pages/`,
             },
         },
         `gatsby-plugin-netlify-cms`
