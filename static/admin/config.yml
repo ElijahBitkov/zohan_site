@@ -19,7 +19,7 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: description, label: Description }
-      - { name: image, widget: image, label: Image, default: src/markdown-pages/default.jpg }
+      - { name: image, widget: image, label: Image, default: src/markdown-pages/banner.jpg }
       - { name: body, label: Body, widget: markdown }
       - { name: featuredImage, default: ./banner.jpg }
       
