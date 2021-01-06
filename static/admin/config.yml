@@ -3,8 +3,7 @@ backend:
   repo: ElijahBitkov/zohan_site
   branch: netify
   
-media_folder: static/assets
-public_folder: assets
+
   
 collections:
   - name: blog
