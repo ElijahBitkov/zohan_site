@@ -6,6 +6,7 @@ import Img from "gatsby-image"
 import Section from "../components/section"
 import About from "../components/about"
 
+
 const PostStyle = createGlobalStyle`
     .article {
         color: var(--0color);
