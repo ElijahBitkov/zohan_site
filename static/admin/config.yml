@@ -5,6 +5,7 @@ backend:
   
 media_folder: /src/markdown-pages/
 public_folder: markdown-pages
+publish_mode: editorial_workflow
   
 collections:
   - name: blog
